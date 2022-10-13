@@ -9,7 +9,7 @@ def main():
     # Asks user to input a number
     user_integer = int(input("Enter an integer: "))
 
-    # IF the user inputs zero
+    # IF the user inputs a negative number
     if user_integer < 0:
         print(f"{user_integer} is a negative number.")
 
@@ -17,7 +17,7 @@ def main():
     elif user_integer > 0:
         print(f"{user_integer} is a positive number.")
 
-    # IF the user inputs a negative number
+    # IF the user inputs zero
     else:
         print(f"{user_integer} is just zero.")
 
